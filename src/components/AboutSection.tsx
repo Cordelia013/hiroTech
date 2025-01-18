@@ -32,7 +32,7 @@ export const AboutSection: React.FC<AboutSectionProps> = () => {
         
         <div className="space-y-12 max-w-3xl flex flex-col items-start">
           <div>
-            <h3 className="text-[16px] font-bold text-[#B5C72E] mb-4 items-start text-left">HOW DID WE GET HERE ?</h3>
+            <h3 className="text-[16px] font-bold text-[#AACC26] mb-4 items-start text-left">HOW DID WE GET HERE ?</h3>
             <p className="text-black text-[12px] font-bold max-w-[800px] text-left">
               15 YEARS AGO, SCIENTISTS FIRST DISCOVERED PLASTIC-EATING FUNGI IN THE AMAZON AND 
               HAVE CONTINUED TO STUDY THEM EVER SINCE.
@@ -49,7 +49,7 @@ export const AboutSection: React.FC<AboutSectionProps> = () => {
           </div>
 
           <div>
-            <h3 className="text-[16px] font-bold text-[#B5C72E] mb-4 items-start text-left">WHY BABY DIAPERS ?</h3>
+            <h3 className="text-[16px] font-bold text-[#AACC26] mb-4 items-start text-left">WHY BABY DIAPERS ?</h3>
             <p className="text-black text-[12px] font-bold max-w-[800px] text-left">
               BABY DIAPERS ARE THE #1 PLASTIC HOUSEHOLD WASTE ITEM AND THE THIRD MOST COMMON 
               THING FOUND IN LANDFILLS!
