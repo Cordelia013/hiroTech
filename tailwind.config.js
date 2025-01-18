@@ -17,12 +17,19 @@ export default {
       // => @media (min-width: 1280px) { ... }
     },
     fontFamily: {
-      futura: ['futura-pt', 'sans-serif'],
+       biryani: ['Biryani', 'sans-serif'],
      
     },
     extend: {
-      
-    
+      colors: {
+        Orange: '#FF4B15', 
+        green: '#AACC26', 
+        pink: '#FFB190', 
+        white: '#fff',
+        black: '#000',
+        gray:"#D9D9D9"
+        // Ajoutez d'autres couleurs selon votre charte graphique
+      },
     },
 
     plugins: [],
