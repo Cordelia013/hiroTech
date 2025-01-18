@@ -1,24 +1,14 @@
+import { Decorations } from './Decorations';
+
 interface AboutSectionProps {
   className?: string;
 }
 
 export const AboutSection: React.FC<AboutSectionProps> = () => {
   return (
-    <section className={`relative min-h-screen bg-pink-50 px-8 py-4 z-10 `}>
-      {/* images */}
-      <div className="absolute -top-48 h-full w-full pointer-events-none right-[-45%]">
-        <img 
-          src="/assets/decoration-red.png" 
-          alt="" 
-          className="absolute right-32 h-full w-auto object-contain rotate-90 scale-y-[30%] scale-x-[70%] rounded-full"
-        />
-        <img 
-          src="/assets/decotation-green.png" 
-          alt="" 
-          className="absolute right-0 h-full w-auto object-contain rotate-90 scale-y-[30%] scale-x-[55%] translate-y-[30%] rounded-full"
-        />
-      </div>
-
+    <section className={`relative min-h-screen bg-pink-50 px-8 py-4 z-10`}>
+      <Decorations />
+      
       {/* content */}
       <div className="flex flex-col items-start">
         <h2 className="text-[40px] font-bold text-[#FF4B15] mb-8">ABOUT US</h2>
