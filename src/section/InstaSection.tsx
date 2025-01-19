@@ -1,12 +1,12 @@
 const instaActu: { id: number; img: string }[] = [
-  { id: 1, img: "/public/assets/image-product.png" },
-  { id: 2, img: "/public/assets/image-product.png" },
-  { id: 3, img: "/public/assets/image-product.png" },
-  { id: 4, img: "/public/assets/image-product.png" },
-  { id: 5, img: "/public/assets/image-product.png" },
-  { id: 6, img: "/public/assets/image-product.png" },
-  { id: 7, img: "/public/assets/image-product.png" },
-  { id: 8, img: "/public/assets/image-product.png" },
+  { id: 1, img: "/public/assets/INSTA/image-1.png" },
+  { id: 2, img: "/public/assets/INSTA/image-2.png" },
+  { id: 3, img: "/public/assets/INSTA/image-3.png" },
+  { id: 4, img: "/public/assets/INSTA/image-4.png" },
+  { id: 5, img: "/public/assets/INSTA/image-5.png" },
+  { id: 6, img: "/public/assets/INSTA/image-6.png" },
+  { id: 7, img: "/public/assets/INSTA/image-7.png" },
+  { id: 8, img: "/public/assets/INSTA/image-8.png" },
 ];
 
 const InstaSection = () => {
