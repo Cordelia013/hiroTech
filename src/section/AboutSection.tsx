@@ -5,7 +5,7 @@ interface AboutSectionProps {
 export const AboutSection: React.FC<AboutSectionProps> = () => {
   return (
     <section
-      className={`relative min-h-screen bg-pink-50 px-8 py-4 z-10 pl-[125px]`}
+      className={`relative min-h-screen bg-pink-50 px-8 py-4 z-10 pl-[125px] font-biryani`}
     >
       {/* images */}
       <div className="absolute -top-48 h-full w-full pointer-events-none right-[-45%]">
