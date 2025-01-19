@@ -11,18 +11,21 @@ const instaActu: { id: number; img: string }[] = [
 
 const InstaSection = () => {
   return (
-      <div className="relative min-h-screen font-biryani bg-greenC text-whiteC pb-48 z-20">
+    <div className="relative min-h-screen font-biryani bg-greenC text-whiteC pb-48 z-20">
+      {/* Section Header */}
       <div className="ml-[125px] pt-5 font-extrabold">
         <h2 className="text-3xl">Instagram</h2>
-        <p className=" text-base">Last post</p>
+        <p className="text-base">Last post</p>
       </div>
-      <div className="flex flex-wrap justify-center mx-52 bg-white p-5 gap-7 mt-20 ">
+
+      {/* Images Grid */}
+      <div className="mx-[125px] grid sm:grid-cols-1 sm:grid-cols-2 grid-cols-4 gap-7 mt-20 p-14 bg-white text-black rounded-lg">
         {instaActu.map((post, index) => (
-          <div key={index} className="">
+          <div key={post.id} className="flex justify-center">
             <img
               src={post.img}
               alt={`Image ${index + 1}`}
-              className="w-44 h-44"
+              className="object-cover"
             />
           </div>
         ))}
