@@ -22,13 +22,22 @@ export default {
     },
     extend: {
       colors: {
-        Orange: '#FF4B15', 
-        green: '#AACC26', 
-        pink: '#FFB190', 
-        white: '#fff',
-        black: '#000',
-        gray:"#D9D9D9"
+        orangeC: '#FF4B15', 
+        greenC: '#AACC26', 
+        pinkC: '#FFB190', 
+        whiteC: '#fff',
+        blackC: '#000',
+        grayC:"#D9D9D9"
         // Ajoutez d'autres couleurs selon votre charte graphique
+      },
+        keyframes: {
+        fadeIn: {
+          "0%": { opacity: 0 },
+          "100%": { opacity: 1 },
+        },
+      },
+      animation: {
+        fadeIn: "fadeIn 0.5s ease-in forwards",
       },
     },
 
