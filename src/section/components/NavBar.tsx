@@ -6,7 +6,7 @@ interface NavBarProps {
 
 export const NavBar: React.FC<NavBarProps> = () => {
   return (
-    <nav className="fixed right-8 top-[30%] -translate-y-[50%] z-50  border-2 border-white">
+    <nav className="fixed right-8 top-[30%] -translate-y-[50%] z-50  ">
       <div className="bg-[#AACC26] rounded-[20px] py-16 px-4 flex flex-col gap-8">
         <button 
           className="hover:opacity-70 transition-opacity"
