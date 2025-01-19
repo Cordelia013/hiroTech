@@ -3,7 +3,7 @@ const HeroSection = () => {
     <>
       <div className="relative min-h-screen font-biryani bg-orangeC flex items-center justify-center flex-col z-20">
         <img
-          src="/public/assets/logo-png.png"
+          src="/assets/logo-png.png"
           alt="logo hiro"
           className="w-[760px] h-[272px]"
         />
