@@ -24,7 +24,7 @@ const HeroSection: React.FC = () => {
     <div className="relative min-h-screen font-biryani bg-orangeC flex items-center justify-center flex-col z-20">
       {/* Logo */}
       <img
-        src="/assets/logo-png.png"
+        src="/assets/Logo-png.png"
         alt="logo hiro"
         className="w-[760px] h-[272px]"
       />
