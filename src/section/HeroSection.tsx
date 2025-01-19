@@ -5,27 +5,26 @@ const HeroSection: React.FC = () => {
 
   // Lines to display
   const lines = [". ECOLOGY", ". INNOVATION", ". FUNGI"];
-useEffect(() => {
-  // Gradually display each line one by one in a loop
-  const interval = setInterval(() => {
-    setVisibleLines((prev) => {
-      if (prev < lines.length) {
-        return prev + 1; // Affiche la ligne suivante
-      } else {
-        return 0; // Réinitialise à 0 une fois toutes les lignes affichées
-      }
-    });
-  }, 1500); // Change line every 1 second
+  useEffect(() => {
+    // Gradually display each line one by one in a loop
+    const interval = setInterval(() => {
+      setVisibleLines((prev) => {
+        if (prev < lines.length) {
+          return prev + 1; // Affiche la ligne suivante
+        } else {
+          return 0; // Réinitialise à 0 une fois toutes les lignes affichées
+        }
+      });
+    }, 1500); // Change line every 1 second
 
-  return () => clearInterval(interval); // Nettoyage de l'intervalle
-}, [lines.length]);
-
+    return () => clearInterval(interval); // Nettoyage de l'intervalle
+  }, [lines.length]);
 
   return (
     <div className="relative min-h-screen font-biryani bg-orangeC flex items-center justify-center flex-col z-20">
       {/* Logo */}
       <img
-        src="/public/assets/logo-png.png"
+        src="/assets/logo-png.png"
         alt="logo hiro"
         className="w-[760px] h-[272px]"
       />
