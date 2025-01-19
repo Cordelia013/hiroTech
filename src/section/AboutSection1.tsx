@@ -1,5 +1,3 @@
-import { Decorations } from './components/Decorations';
-
 interface AboutSectionProps {
   className?: string;
 }
@@ -9,7 +7,19 @@ export const AboutSection: React.FC<AboutSectionProps> = () => {
     <section
       className={`relative min-h-screen bg-pink-50 px-8 py-4 z-10 pl-[125px] font-biryani`}
     >
-      <Decorations />
+      {/* images */}
+      <div className="absolute -top-48 h-full w-full pointer-events-none right-[-45%]">
+        <img
+          src="/assets/decoration-red.png"
+          alt=""
+          className="absolute right-32 h-full w-auto object-contain rotate-90 scale-y-[30%] scale-x-[70%] rounded-full"
+        />
+        <img
+          src="/assets/decotation-green.png"
+          alt=""
+          className="absolute right-0 h-full w-auto object-contain rotate-90 scale-y-[30%] scale-x-[55%] translate-y-[30%] rounded-full"
+        />
+      </div>
 
       {/* content */}
       <div className="flex flex-col items-start">
@@ -25,7 +35,7 @@ export const AboutSection: React.FC<AboutSectionProps> = () => {
 
       <div className="space-y-12 max-w-3xl flex flex-col items-start">
         <div>
-          <h3 className="text-[16px] font-bold text-[#AACC26] mb-4 items-start text-left">
+          <h3 className="text-[16px] font-bold text-[#B5C72E] mb-4 items-start text-left">
             HOW DID WE GET HERE ?
           </h3>
           <p className="text-black text-[12px] font-bold max-w-[800px] text-left">
@@ -47,7 +57,7 @@ export const AboutSection: React.FC<AboutSectionProps> = () => {
         </div>
 
         <div>
-          <h3 className="text-[16px] font-bold text-[#AACC26] mb-4 items-start text-left">
+          <h3 className="text-[16px] font-bold text-[#B5C72E] mb-4 items-start text-left">
             WHY BABY DIAPERS ?
           </h3>
           <p className="text-black text-[12px] font-bold max-w-[800px] text-left">
