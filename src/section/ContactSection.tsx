@@ -24,7 +24,7 @@ const ContactSection = () => {
 
       {/* Form */}
       <div className="flex flex-col items-center justify-center p-10">
-        <form className="w-full max-w-lg rounded-lg shadow-lg p-8">
+        <form className="w-full max-w-lg  shadow-lg p-8 rounded-[20px]">
           {/* Name Input */}
           <div className="mb-6 relative">
             <input
@@ -32,7 +32,7 @@ const ContactSection = () => {
               type="text"
               value={formData.name}
               onChange={handleChange}
-              className="block w-full bg-white border text-orangeC rounded py-3 px-4 leading-tight focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-orange-500 peer"
+              className="block w-full rounded-[20px] bg-white border text-orangeC  py-3 px-4 leading-tight focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-orange-500 peer"
             />
             <span
               className={`absolute left-4 top-1/2 transform -translate-y-1/2 text-orangeC transition-all peer-placeholder-shown:text-opacity-50 ${
@@ -50,7 +50,7 @@ const ContactSection = () => {
               type="email"
               value={formData.email}
               onChange={handleChange}
-              className="block w-full bg-white border text-orangeC rounded py-3 px-4 leading-tight focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-orange-500 peer"
+              className="block w-full bg-white border text-orangeC rounded-[20px] py-3 px-4 leading-tight focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-orange-500 peer"
             />
             <span
               className={`absolute left-4 top-1/2 transform -translate-y-1/2 text-orangeC transition-all peer-placeholder-shown:text-opacity-50 ${
@@ -68,7 +68,7 @@ const ContactSection = () => {
               type="text"
               value={formData.mobile}
               onChange={handleChange}
-              className="block w-full bg-white border text-orangeC rounded py-3 px-4 leading-tight focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-orange-500 peer"
+              className="block w-full bg-white border text-orangeC rounded-[20px] py-3 px-4 leading-tight focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-orange-500 peer"
             />
             <span
               className={`absolute left-4 top-1/2 transform -translate-y-1/2 text-orangeC transition-all peer-placeholder-shown:text-opacity-50 ${
@@ -85,7 +85,7 @@ const ContactSection = () => {
               id="message"
               value={formData.message}
               onChange={handleChange}
-              className="block w-full bg-white border text-orangeC rounded py-3 px-4 leading-tight focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-orange-500 peer h-32 resize-none"
+              className="block w-full bg-white border text-orangeC rounded-[20px] py-3 px-4 leading-tight focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-orange-500 peer h-32 resize-none"
             />
             <span
               className={`absolute left-4 top-3 text-orangeC transition-all peer-placeholder-shown:text-opacity-50 ${
@@ -100,7 +100,7 @@ const ContactSection = () => {
           <div className="flex justify-center">
             <button
               type="submit"
-              className="shadow-md bg-whiteC text-orangeC font-bold px-6 py-4 rounded-lg hover:bg-orange-200 transition-all focus:shadow-outline focus:outline-none text-center"
+              className="shadow-md bg-whiteC text-orangeC font-bold px-6 py-4 rounded-[20px] hover:bg-orange-200 transition-all focus:shadow-outline focus:outline-none text-center"
             >
               Submit
             </button>
