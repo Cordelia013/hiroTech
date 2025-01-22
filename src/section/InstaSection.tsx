@@ -14,7 +14,7 @@ const InstaSection = () => {
     <div className="relative min-h-screen font-biryani bg-greenC text-whiteC pb-48 z-20">
       {/* Section Header */}
       <div className="ml-[125px] pt-5 font-extrabold">
-        <h2 className="text-3xl">Instagram</h2>
+        <h2 className="text-[40px]">Instagram</h2>
         <p className="text-base">Last post</p>
       </div>
 
